@@ -1,0 +1,144 @@
+/* Universal Styles */
+
+html {
+    font-size: 16;
+}
+
+body {
+    text-align: center;
+}
+
+
+
+
+/* Header Section */
+
+header {
+    background-image: url(./hutomo-abrianto-9ZvuWg8deho-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31.25rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-top: 3rem; 
+}
+
+nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+}
+
+header h1 {
+    background-color: rgba(242, 243, 244, 0.6);
+    padding: 2rem 0 2rem 0;
+    color: rgb(39, 55, 70 );
+    position: relative;
+    top: 7rem;
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px white;
+}
+
+header h2 {
+
+    padding: 1.5rem 0 1.5rem 0;
+    color: rgb(39, 55, 70 );
+    position: relative;
+    top: 7.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+/* Projects Section */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-thumbnail  {
+ width: 30%;
+}
+
+.project-thumbnail img {
+    max-width: 90%;
+    box-shadow: 10px 10px rgb(204, 209, 209);
+}
+
+.project-section h4 {
+    color: rgb(170, 183, 184);
+}
+
+.project-section p {
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width:768px) {
+    .project-thumbnail {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .project-thumbnail {
+        width: 100%;
+    }
+}
+
+/* Team Section */
+
+.team-section {
+    background-color: rgb(204, 209, 209);
+    padding-top: 1rem;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.team-thumbnail {
+    width: 30%;
+}
+
+.team-thumbnail img {
+    max-height: 20rem;
+    border: solid 5px white;
+    width: auto;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .team-thumbnail{
+        width: 100%;
+    }
+}
+
+/* Footer Section */
+
+footer div {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: .2rem;
+}
